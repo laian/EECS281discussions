@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	string name;
-	cout << "I can say your name ten times really fast.  What's your name?"
+	cout << "I can say your name ten times really fast.  What's your name?\n";
 	cin >> name;
 
 	stringstream ss;
