@@ -2,6 +2,8 @@
 
 using namespace std;
 
+void leak();
+
 int main(){
 	int x = 100; //start watching x
 	cout << "x is " << x << " but I'm going to change it!\n";
