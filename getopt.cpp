@@ -2,6 +2,8 @@
 #include <getopt.h>
 #include <string>
 
+using namespace std;
+
 int main(int argc, char **argv){
 	/*
 	this program takes in two arguments

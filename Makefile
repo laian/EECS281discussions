@@ -19,7 +19,5 @@ stringstream: stringstream.o
 stringstream.o: stringstream.cpp
 	g++ $(FLAGS) -c stringstream.cpp
 
-
-
 clean:
-	rm *.o example
+	rm *.o example stringstream getopt
