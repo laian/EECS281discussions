@@ -15,8 +15,8 @@ int main(int argc, char **argv){
 		{"optionB", required_argument, NULL, 'b'}
 	};
 
-	string opt;
-	while((opt = getopt_long (argc, argv, "ab:h", longOpts, &optIndex)) != -1){
+	int opt =0, index = 0;
+	while((opt = getopt_long (argc, argv, "ab:h", longOpts, &index)) != -1){
 		switch(opt) {
 			case 'a':
 				cout << "you have triggered option A\n";
