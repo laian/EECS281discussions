@@ -7,7 +7,7 @@ using namespace std;
 int main(){
 	string name;
 	cout << "I can say your name ten times really fast.  What's your name?"
-	cin << name;
+	cin >> name;
 
 	stringstream ss;
 	for(int i = 0; i < 10; i++){
