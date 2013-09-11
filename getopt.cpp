@@ -22,8 +22,8 @@ int main(int argc, char **argv){
 				cout << "you have triggered option A\n";
 				break;
 			case 'b':
-				string option = optarg; //optarg is defined in getopt.h
-				cout << "you have triggered option B with option " << option << "\n";
+				cout << "you have triggered option B with option " << optarg << "\n";
+				//optarg is defined in getopt.h
 				break;
 			case '?':
 				cout << "I didn't recognize one of your flags\n";
