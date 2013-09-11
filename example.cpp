@@ -14,6 +14,6 @@ int main(){
 }
 
 void leak(){
-	x = new int();
+	int x = new int();
 	return;
 }
